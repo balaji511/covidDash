@@ -1,0 +1,292 @@
+.bgContainer {
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+}
+.bgSearchContainer {
+  background-color: #2f2f43;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  align-self: center;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+input {
+  background-color: #2f2f43;
+  border-width: 0px;
+  height: 25px;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+.bgSearchIcon {
+  color: wheat;
+  margin-right: 10px;
+}
+.bgConfirmedHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ff073a;
+  padding: 20px;
+  width: 25vw;
+}
+
+.bgActiveHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #007bff;
+  padding: 20px;
+  width: 25vw;
+}
+
+.bgDeceasedHome {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #6c757d;
+  padding: 20px;
+  width: 26vw;
+}
+
+.bgRecoveredHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #28a745;
+  padding: 20px;
+
+  width: 25vw;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .bgConfirmedHome {
+    width: 40vw;
+  }
+  .bgActiveHome {
+    width: 40vw;
+  }
+  .bgDeceasedHome {
+    width: 40vw;
+  }
+  .bgRecoveredHome {
+    width: 40vw;
+  }
+  .bgStatusContainers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headState {
+    padding-left: 30px;
+  }
+  .headDeceased {
+    display: none;
+  }
+  .headPopulation {
+    display: none;
+  }
+  .bgListHeaderOptions {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92%;
+  }
+  .bgBtn {
+    display: none;
+  }
+  .headConfirmed {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+  .line {
+    width: 104%;
+  }
+}
+.bgStatusLogo {
+  height: 38px;
+}
+.bgConfirmedHead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.bgConfirmedCount {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.bgStatusContainers {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+
+  align-items: center;
+  padding-top: 10px;
+  width: 80%;
+}
+
+.line {
+  color: white;
+  width: 101.7%;
+}
+
+.bgList {
+  border: 2px solid white;
+  width: 90%;
+  align-self: center;
+  border-radius: 10px;
+  color: white;
+  padding-right: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.bgListHeaderOptions {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.headState {
+  font-family: 'Roboto';
+  font-style: normal;
+  width: 17.5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.headConfirmed {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  width: 8.9%;
+}
+.headActive {
+  width: 8.8%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 5px;
+  text-align: center;
+
+  line-height: 24px;
+}
+.headDeceased {
+  width: 8.8%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 5px;
+  text-align: center;
+
+  line-height: 24px;
+}
+.headPopulation {
+  width: 8.8%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 5px;
+  text-align: center;
+
+  line-height: 24px;
+}
+.bgBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgIncludingList {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  align-self: center;
+}
+.bgFailureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgFailure {
+  height: 150px;
+  margin: 30px;
+  margin-top: 60px;
+}
+.bgFailureHead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px; /* identical to box height, or 150% */
+  text-align: center; /* Light / blue-gray / 300 */
+  color: #cbd5e1;
+}
+.bgFailureDes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; /* or 160% */
+  text-align: center; /* Light / blue-gray / 400 */
+  color: #94a3b8;
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .bgFailureDes {
+    font-size: 12px;
+  }
+  .bgFailureHead {
+    font-size: 18px;
+  }
+  .bgListHeaderOptions {
+    width: 90%;
+  }
+}
+.bgHomeButton {
+  width: 70px;
+  height: 29px;
+  background-color: #2563eb;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px; /* identical to box height, or 171% */ /* Light / base / white */
+  color: #ffffff;
+  margin-bottom: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.bgLoader {
+  margin-top: 150px;
+  align-self: center;
+}

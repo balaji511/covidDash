@@ -1,0 +1,54 @@
+.bgFailureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  min-height: 100vh;
+  justify-content: center;
+}
+.bgFailure {
+  height: 150px;
+  margin: 30px;
+  margin-top: 60px;
+}
+.bgFailureHead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px; /* identical to box height, or 150% */
+  text-align: center; /* Light / blue-gray / 300 */
+  color: #cbd5e1;
+}
+.bgFailureDes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; /* or 160% */
+  text-align: center; /* Light / blue-gray / 400 */
+  color: #94a3b8;
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .bgFailureDes {
+    font-size: 12px;
+  }
+  .bgFailureHead {
+    font-size: 18px;
+  }
+}
+.bgHomeButton {
+  width: 70px;
+  height: 29px;
+  background-color: #2563eb;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px; /* identical to box height, or 171% */ /* Light / base / white */
+  color: #ffffff;
+  margin-bottom: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+}

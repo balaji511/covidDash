@@ -1,0 +1,120 @@
+.bgDfr {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bgTabsListItems {
+  width: 90%;
+  align-self: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.bgEachCategoryConfirmed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ff073a;
+  width: 25%;
+  margin: 7px;
+  border-radius: 3%;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.bgEachCategoryConfirmed:hover {
+  background: #331427;
+}
+.bgEachCategoryActive:hover {
+  background: #132240;
+}
+.bgEachCategoryRecovered:hover {
+  background: #182829;
+}
+.bgEachCategoryDeceased:hover {
+  background: #212230;
+}
+
+.bgEachConfirmed {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; /* identical to box height, or 150% */
+}
+.bgEachValue {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; /* identical to box height, or 100% */
+  text-align: center;
+}
+.bgEachCategoryActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #007bff;
+  margin: 7px;
+  border-radius: 3%;
+  padding-bottom: 10px;
+  width: 25%;
+}
+.bgEachCategoryRecovered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #28a745;
+  padding-bottom: 10px;
+  width: 25%;
+  margin: 7px;
+  border-radius: 3%;
+}
+.bgEachCategoryDeceased {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #6c757d;
+  margin: 7px;
+  border-radius: 3%;
+  width: 25%;
+  padding-bottom: 10px;
+}
+.bgConfirmedImg {
+  height: 75px;
+
+  background-color: transparent;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .bgEachCategoryConfirmed {
+    width: 43%;
+  }
+  .bgEachCategoryDeceased {
+    width: 43%;
+  }
+  .bgEachCategoryActive {
+    width: 43%;
+  }
+  .bgEachCategoryRecovered {
+    width: 43%;
+  }
+  .bgTabsListItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.bgConfirmed {
+  background: #331427;
+}
+.bgActive {
+  background: #132240;
+}
+.bgRecovered {
+  background: #182829;
+}
+.bgDeceased {
+  background: #212230;
+}

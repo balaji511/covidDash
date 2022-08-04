@@ -1,0 +1,131 @@
+.bgStateDetailedContainer {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.bgStateContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bgStateNameItem {
+  background: rgba(2, 132, 199, 0.16);
+  border-radius: 12px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+
+  align-self: center;
+
+  font-size: 16px;
+  line-height: 48px; /* identical to box height, or 150% */ /* Light / light-blue / 500 */
+  color: #0ea5e9;
+}
+@media (max-width: 768px) {
+  .bgStateNameItem {
+    font-size: 12px;
+    width: 60%;
+    align-self: center;
+  }
+  .bgStateDate {
+    text-align: center;
+  }
+}
+.testedCount {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; /* identical to box height, or 100% */
+  /* Light / blue-gray / 400 */
+  color: #94a3b8;
+}
+.testedHead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 24px; /* identical to box height, or 150% */ /* Light / blue-gray / 400 */
+  color: #94a3b8;
+}
+.bgTestedCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgStateDate {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  padding-left: 0px;
+
+  align-self: flex-start;
+  line-height: 24px; /* identical to box height, or 133% */ /* Light / blue-gray / 300 */
+  color: #a6a6d1;
+}
+.bgStateNameDate {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.bgTabItems {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.bgDistrictsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.bgDistrictItemsContainer {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bgDistrictsHead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px; /* identical to box height, or 150% */
+
+  color: red;
+}
+@media (max-width: 768px) {
+  .bgDistrictItemsContainer {
+    width: 100%;
+  }
+  .bgDistrictsHead {
+    font-size: 20px;
+  }
+  .bgStateDate {
+    width: 72%;
+  }
+}
+.specificChart {
+  align-self: center;
+  width: 60%;
+  margin-top: 40px;
+  height: 50vh;
+  margin: 20px;
+  align-items: center;
+
+  margin-left: 25px;
+}
+@media (max-width: 768px) {
+  .specificChart {
+    overflow-x: scroll;
+    margin-left: 0px;
+    width: 85%;
+  }
+}
